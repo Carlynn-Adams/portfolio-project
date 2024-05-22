@@ -23,6 +23,29 @@
     <script src="https://kit.fontawesome.com/cc40bb0f00.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <img src="images/logo.png" class="logo d-none d-md-block" alt="Carlynn Logo" />
+                <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Carlynn Logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li class="active">
+                    <a href="/about.html" title="About Carlynn">About</a>
+                </li>
+                <li>
+                    <a href="/work.html" title="Carlynn's work">Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Carlynn">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
@@ -33,7 +56,7 @@
                         For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different
                         exercises, and everything is well explained, homework and deadlines are good for keep focus
                     </p>
-                    <a href="" class="btn btn-branding">See my projects</a>
+                    <a href="/work.html" class="btn btn-branding">See my projects</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -41,5 +64,39 @@
             </div>
         </div>
     </div>
+
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-muted">Let's work together and I'll help you with all my best</p>
+            </div>
+            <div>
+                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Carlynn">Contact me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:carlynnadams25@gmail.com" class="email-link" title="Email Carlynn">
+                carlynnadams25@gmail.com
+            </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://github.com/Carlynn-Adams" target="_blank" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/carlynnadamsss/" target="_blank" title="Instagram Profile">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/carlynn-adams-b86ab1243/" target="_blank" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="text-center mt-5">
+            This project was coded by Carlynn Adams, and it is
+            <a href="https://github.com/Carlynn-Adams/portfolio-project" target="_blank">
+                open-sourced
+            </a>
+        </p>
+    </footer>
 </body>
 </html>
