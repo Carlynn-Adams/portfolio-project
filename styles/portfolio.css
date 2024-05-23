@@ -108,6 +108,12 @@ p {
     max-height: 40px;
 }
 
+.carlynn {
+    border-radius: 16px;
+    max-width: 900px;
+    max-height: 600px;
+}
+
 nav {
     padding: 20px 0;
 }
